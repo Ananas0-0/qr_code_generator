@@ -25,6 +25,7 @@ def qr():
    img64 = base64.b64encode(buffer.getvalue())
    return f'<img src="data:image/png;base64, {img64.decode()}" alt="qrcode" />'
 
+print("Hello, World!")
 
 if __name__ == "__main__":
    app.run(host='0.0.0.0')
